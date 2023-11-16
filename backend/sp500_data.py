@@ -35,6 +35,6 @@ def get_sp500_data():
         print(f"Error parsing JSON response: {e}")
         return {}
     
-if __name__ == '__main__':
+if __name__ == "__main__":
     sp500_data = get_sp500_data()
     print(sp500_data)
